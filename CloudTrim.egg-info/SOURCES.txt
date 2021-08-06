@@ -1,0 +1,9 @@
+README.md
+setup.py
+CloudTrim/CloudTrim.py
+CloudTrim/__init__.py
+CloudTrim.egg-info/PKG-INFO
+CloudTrim.egg-info/SOURCES.txt
+CloudTrim.egg-info/dependency_links.txt
+CloudTrim.egg-info/requires.txt
+CloudTrim.egg-info/top_level.txt

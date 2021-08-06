@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CloudTrim
+Version: 0.0.1
+Summary: for trimming online videos
+Home-page: UNKNOWN
+Author: Alvin Saini
+Author-email: codewithalvin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+this package is devloped to be meant to use in google colab for trimming and downloading videos
+
