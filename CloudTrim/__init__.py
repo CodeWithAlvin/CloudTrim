@@ -1,1 +1,1 @@
-import CloudTrimmer
+import CloudTrim
