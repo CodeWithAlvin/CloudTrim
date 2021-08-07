@@ -7,5 +7,5 @@ long_description="this package is devloped to be meant to use in google colab fo
 author="Alvin Saini",
 author_email="codewithalvin@gmail.com",
 packages=["CloudTrim"],
-install_requires=["moviepy==1.0.3","googledrivedownloader==0.4"]
+install_requires=["moviepy","googledrivedownloader"]
 )
