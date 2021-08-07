@@ -1,1 +1,1 @@
-from CloudTrim import *
+from .CloudTrim import *

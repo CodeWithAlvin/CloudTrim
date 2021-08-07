@@ -11,10 +11,10 @@ def to_seconds(timestamp):
     and return the value in second
     """
     hrs,mint,sec=timestamp.split(":")
-    hrs2sec = hrs*60*60
-    mint2sec = mint*60
+    hrs2sec = int(hrs)*60*60
+    mint2sec = int(mint)*60
     
-    return hrs2sec + mint2sec +sec
+    return hrs2sec + mint2sec + int(sec)
 
 
 def download_from_drive(link=None,ids=None,to_save=None):
@@ -51,14 +51,25 @@ def trim_video(path,start,end,export_path):
     else:
         raise TypeError("not a video")
 
-def HandleTrim(url,start,end,isDrive):
+def trim(url,start,end,isDrive):
+    """
+    inputs :-
+    	
+    	url --> url of the video
+    start --> str start time in format "hrs:min:sec"
+    end --> str end time in format "hrs:min:sec"
+    isDrive --> if thee link is google drive or not
+    
+    output :-
+    	return the path of trimmed video
+    """
     start = to_seconds(start)
     end = to_seconds(end)
     name=time.time()
     init_path = f"/manual/download/{name}.mkv"
     final_path = f"/manual/trimed/{name}.mkv"
     
-    if isDrive == "on":
+    if isDrive:   
         if "drive" in url:
             download_from_drive(link=url, to_save=init_path)
         else:

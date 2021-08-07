@@ -51,14 +51,25 @@ def trim_video(path,start,end,export_path):
     else:
         raise TypeError("not a video")
 
-def HandleTrim(url,start,end,isDrive):
+def trim(url,start,end,isDrive):
+    """
+    inputs :-
+    	
+    	url --> url of the video
+    start --> str start time in format "hrs:min:sec"
+    end --> str end time in format "hrs:min:sec"
+    isDrive --> if thee link is google drive or not
+    
+    output :-
+    	return the path of trimmed video
+    """
     start = to_seconds(start)
     end = to_seconds(end)
     name=time.time()
     init_path = f"/manual/download/{name}.mkv"
     final_path = f"/manual/trimed/{name}.mkv"
     
-    if isDrive == "on":
+    if isDrive:   
         if "drive" in url:
             download_from_drive(link=url, to_save=init_path)
         else:
