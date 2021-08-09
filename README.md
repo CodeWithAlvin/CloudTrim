@@ -1,7 +1,7 @@
 
 # CloudTrimmer
 Trim On cloud
-##Devloped to be used only on Google colab
+## Devloped to be used only on Google colab
 ### A library for trimming video and downloading them
 
 
