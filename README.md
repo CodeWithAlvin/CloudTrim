@@ -15,6 +15,15 @@ Trim On cloud
 
   
 ## Documentation
+### import CloudTrim
+
+### CloudTrim.trim(url,start,end,isDrive)
+
+
+* url = url of video 
+* Start= start time "HH:mm:ss"
+* end = end time "HH:mm:ss"
+* isDrive = Google drive link or not True / False
 
 
   
