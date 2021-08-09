@@ -1,7 +1,7 @@
 
 # CloudTrimmer
 Trim On cloud
-### A library for trimming video and downpoading them
+### A library for trimming video and downloading them
 
 
 
