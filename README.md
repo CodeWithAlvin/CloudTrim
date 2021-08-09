@@ -15,9 +15,13 @@ Trim On cloud
 
   
 ## Documentation
-### import CloudTrim
+### Installation
+pip install CloudTrim
 
-### CloudTrim.trim(url,start,end,isDrive)
+### Usage
+import CloudTrim
+
+CloudTrim.trim(url,start,end,isDrive)
 
 
 * url = url of video 
