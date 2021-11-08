@@ -7,8 +7,6 @@ Trim On cloud
 
 
   
-![Logo](https://raw.githubusercontent.com/CodeWithAlvin/CloudTrimmer-web/master/static/images/logo.svg)
-
     
 ## Authors
 
